@@ -27,6 +27,9 @@
 
 # ---- ANSWER ----
 
+# NOTE: this is the functional solution
+# this would be more performant (and arguably simpler) using a single loop
+# this could also be written more elegantly in javascript with just filter and reduce
 def basic_even_odd(numbers_array):
 	even_indexes = filter(lambda x: x % 2 == 0, range(len(numbers_array)))
 	odd_indexes = filter(lambda x: x % 2 == 1, range(len(numbers_array)))
