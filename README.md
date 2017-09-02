@@ -1,4 +1,4 @@
-# Interview Prep
+# Algorithms & Data Structures Practice
 
 A few practice problems.
 
